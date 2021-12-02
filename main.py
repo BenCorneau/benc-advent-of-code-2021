@@ -1,4 +1,5 @@
-from day01 import part1 as day01_1
-from day01 import part2 as day01_2
+from day02 import part1 as part
 
-day01_2.run()
+print("running", part)
+print("")
+part.run()

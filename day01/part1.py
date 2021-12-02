@@ -2,7 +2,7 @@ import util
 
 
 def run():
-    input = util.read_file_int("day01/input.txt")
+    input = util.read_file("day01/input.txt", int)
     
     result = count_increases(input)
     print("result", result)
