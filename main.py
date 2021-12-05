@@ -1,4 +1,4 @@
-from day02 import part1 as part
+from day03 import part2 as part
 
 print("running", part)
 print("")
