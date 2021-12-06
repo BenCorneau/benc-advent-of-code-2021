@@ -44,8 +44,3 @@ def least_common_value(data, bit_position):
         return '1'
     else:
         return '0'
-
-
-
-    
-
