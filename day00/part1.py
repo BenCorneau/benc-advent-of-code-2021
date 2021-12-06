@@ -7,11 +7,11 @@ def parse_input(s):
 
 
 def run():
-    input = util.read_file("dayXX/input_sample.txt", parse_input)
-    input = util.read_line("dayXX/input_sample.txt", int)
-    result = calc(input)
+    data = util.read_file("dayXX/input_sample.txt", parse_input)
+    data = util.read_line("dayXX/input_sample.txt", int)
+    result = calc(data)
     print("result", result)
 
 
-def calc(input):
-    return len(input)
+def calc(data):
+    return len(data)
