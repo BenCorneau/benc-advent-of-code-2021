@@ -23,13 +23,6 @@ def calc(lines):
         for point in calc_points(p1,p2):
             points[point] += 1
 
-    for x in range(0,10):
-        row = []
-        for y in range(0,10):
-            row.append(points[(x,y)])
-        print(row)
-        
-    
     return len([v for v in points.values() if v>= 2])
 
   
@@ -46,3 +39,4 @@ def calc_points(p1,p2):
         max_x = max(x1,x2)
         for x in range(min_x,max_x+1):
             yield(x,y1)
+            
