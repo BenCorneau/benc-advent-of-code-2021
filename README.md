@@ -5,4 +5,6 @@ https://adventofcode.com/2021
 Using Replit as the IDE for this project - [my repl](https://replit.com/@BenCorneau/advent-of-code-2021)
 
 ## tips
-`day00` is a template.  In the Replit shell run `cp -R day00/ day08/` to create a new day's work space.
+Directory `day00` is a template. Run the following command in the Replit shell to createa new day's workspace.
+
+`cp -R day00/ dayXX/`
