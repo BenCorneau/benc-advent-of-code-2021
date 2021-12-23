@@ -1,4 +1,4 @@
-from day16 import part2 as part
+from day17 import part2 as part
 import time
 
 print("running", part)
